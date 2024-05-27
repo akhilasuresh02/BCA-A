@@ -56,10 +56,10 @@ if ($result->num_rows > 0) {
     echo "</table>";
 } else {
     echo "No records found";
+    echo "No records found";
 }
 
 $conn->close();
 ?>
-echo "close";
 </body>
 </html>
